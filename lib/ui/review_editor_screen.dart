@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../models/enums.dart';
-import '../models/paper.dart';
 import '../models/review.dart';
 import '../state/app_state.dart';
 

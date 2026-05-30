@@ -121,8 +121,9 @@ class _SectionEditorScreenState extends State<SectionEditorScreen> {
       canPop: !_dirty,
       onPopInvokedWithResult: (didPop, _) async {
         if (didPop) return;
+        final navigator = Navigator.of(context);
         await _save();
-        if (mounted) Navigator.pop(context);
+        navigator.pop();
       },
       child: Scaffold(
         appBar: AppBar(

@@ -1,5 +1,5 @@
-/// Core enumerations describing the lifecycle of a research paper and the
-/// roles people can take in the authoring/review process.
+// Core enumerations describing the lifecycle of a research paper and the
+// roles people can take in the authoring/review process.
 
 /// The lifecycle state of a paper as it moves through writing, submission,
 /// peer review and revision.
